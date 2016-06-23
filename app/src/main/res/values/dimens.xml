@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--Activity Index-->
+    <dimen name="elevacion_toolbar">4dp</dimen><!--Reglamental en Android material design-->
+    <dimen name="dimension_botonflotante">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen> <!--Dimension del boton flotante (FloatingActionButton)-->
+
+    <!--content_activity_fragments-->
+    <dimen name="radio_esquinas_cardview">4dp</dimen>
+    <dimen name="tamaño_paisaje1">20sp</dimen>
+    <dimen name="Afragments_LL_margintop">10dp</dimen>
+    <dimen name="Afragments_margenDerecha">20dp</dimen>
+</resources>

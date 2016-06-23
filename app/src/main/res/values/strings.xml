@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ViewQuery</string>
+    <!--texto layout detalles celulares-->
+    <string name="name_samsung">SAMSUNG</string>
+    <string name="name_sony">SONY XPERIA</string>
+    <string name="saludo_floating">hola como estas</string>
+    <string name="title_activity_activity__fragments">Fragmentos</string>
+    <string name="abrir_fragment">abrir fragment</string>
+    <!--Activity fragments-->
+    <string name="landscape_mañana">Paisaje en la mañana</string>
+    <string name="landscape_noche">Paisaje en la noche</string>
+    <string name="Afragments_desc_img_mañana">img mañana</string>
+    <string name="Afragments_desc_img2_noche">Noche</string>
+</resources>

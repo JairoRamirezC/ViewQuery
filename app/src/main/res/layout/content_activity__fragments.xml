@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.viewquery.Activity_Fragments"
+    tools:showIn="@layout/activity_fragments">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="@dimen/radio_esquinas_cardview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:src="@drawable/dia"
+                android:contentDescription="@string/Afragments_desc_img_mañana"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="@dimen/Afragments_LL_margintop">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/landscape_mañana"
+                    android:textSize="@dimen/tamaño_paisaje1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/Afragments_margenDerecha"
+                    android:layout_marginEnd="@dimen/Afragments_margenDerecha"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thumb_up_52"
+                    android:layout_marginRight="@dimen/Afragments_margenDerecha"
+                    android:layout_marginEnd="@dimen/Afragments_margenDerecha"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu_48"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardv_2"
+        android:layout_below="@+id/cardv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="@dimen/radio_esquinas_cardview"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:src="@drawable/noche"
+                android:contentDescription="@string/Afragments_desc_img2_noche"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="@dimen/Afragments_LL_margintop">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/landscape_noche"
+                    android:textSize="@dimen/tamaño_paisaje1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/Afragments_margenDerecha"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thumb_up_52"
+                    android:layout_marginRight="@dimen/Afragments_margenDerecha"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu_48"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardv_3"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardv_2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:src="@drawable/ciudad"
+                android:contentDescription="img ciudad"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thumb_up_52"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardv_4"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardv_2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:src="@drawable/p2"
+                android:contentDescription="img ciudad"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/thumb_up_52"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
